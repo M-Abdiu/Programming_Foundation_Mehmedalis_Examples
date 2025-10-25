@@ -6,6 +6,7 @@ def main():
 
     # Read the file's contents.
     file_contents = infile.read()
+    print(type(file_contents))
 
     # Close the file.
     infile.close()

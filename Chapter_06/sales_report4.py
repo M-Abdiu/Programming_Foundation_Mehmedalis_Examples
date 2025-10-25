@@ -18,6 +18,8 @@ def main():
     else:
         # Print the total.
         print(f'{total:,.2f}')
+    finally:
+        print("Good Bye ...")
 
 
 # Call the main function.

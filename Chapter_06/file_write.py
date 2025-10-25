@@ -5,12 +5,12 @@ import os
 
 def main():
     # Open a file named philosophers.txt.
-    # outfile = open('Chapter_06/philosophers.txt', 'w')
+    outfile = open('Chapter06/philosophers.txt', 'w')
 
     # Alternative
     # Build the correct file path for any OS
-    filepath = os.path.join('Chapter_06', 'philosophers.txt')
-    outfile = open(filepath, 'w')
+    # filepath = os.path.join('Chapter_06', 'philosophers.txt')
+    # outfile = open(filepath, 'w')
 
     # Write the names of three philosphers
     # to the file.
