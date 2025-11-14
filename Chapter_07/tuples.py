@@ -22,6 +22,10 @@ tup7 = ('abc', 'xyz')
 tup6 = list(tup6)
 tup6[0] = 100
 print(tuple(tup6))
+# Updating nested elements is allowed
+tup7 = ('abc', 'xyz', [1, 2])
+tup7[2][0] = 23
+print(tup7)
 
 # Deleting Tuple Elements
 tup9 = ('C#', 'Python', 'Java', 'JavaScript')
