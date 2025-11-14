@@ -15,7 +15,6 @@ print("Original:", original)
 print("Copied:", copied)
 print()
 
-
 # Option 2:
 original = [1, 2, 3, 4]
 copied = []
@@ -57,3 +56,13 @@ original.append(5)
 print("Original:", original)
 print("Copied:", copied)
 print()
+
+# Zuweisung vs. shallow copy!!
+a = [1, 2, 3]
+b = a   # Zuweisung, kein Kopieren
+print("a", a)
+print("b", b)
+print()
+a.append(4)
+print("a", a)
+print("b", b)
