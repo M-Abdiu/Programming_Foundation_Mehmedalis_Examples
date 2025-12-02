@@ -1,0 +1,17 @@
+#
+def main():
+    # einlesen der Namen
+    full_name = input("Bitte die Namen eingeben: ")
+
+    #split operation
+    name = full_name.split()    # wird zu einer Liste beim split!
+
+    #Iteration
+    for string in name:         #string ist hier eine neue variable für den eintrag in der Liste
+        print(string[0].upper(), end="")  #end damit nicht in die nächste Zeile gesprungen wird 
+        print(".", end=" ")                 #da immer nach einem string "gedruckt" wird, kommt dieses end am ende jedes
+
+
+
+main()
+

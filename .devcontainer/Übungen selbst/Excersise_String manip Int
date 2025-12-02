@@ -1,0 +1,22 @@
+
+#Zahlen durch eingaben zusammenrechnen
+def main():
+    number_string = input("Bitte Ziffern eingeben: ")
+    total = string_total(number_string)   #übergibt die Zahl an die andere Funktion
+    print("Die Ziffernsumme ist: ", total)
+
+def string_total(string):
+    total = 0    #initialisierung das man die variable bereits hat
+    number = 0
+
+    for i in range(len(string)):  #damit man alle nummern beachtet in der länge des strings
+         number = int(string[i])
+         total += number 
+    
+    return total     #an die Aufrufende instanz zurückgeben
+
+
+
+
+
+main()
