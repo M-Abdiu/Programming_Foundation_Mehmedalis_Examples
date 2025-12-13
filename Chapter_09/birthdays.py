@@ -62,6 +62,7 @@ def look_up(birthdays):
     # Look it up in the dictionary.
     print(birthdays.get(name, 'Not found.'))
 
+
 # The add function adds a new entry into the
 # birthdays dictionary.
 def add(birthdays):
